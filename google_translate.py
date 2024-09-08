@@ -5,9 +5,9 @@ translator = Translator(service_urls=[
 
         
 
-# one simple function to handle the translate process
-# text is a string get by the user, the "dest" is the language that translate the text to it
-# and the "src" is what is the language you translate from, its "auto" but you can change it
+# One simple function to handle the translation process
+# text is a string get by the user, the "dest" is the language that translates the text to it
+# and the "src" is what the language you translate from, it is "auto" but you can change it
 def translate(text, dest="en", src="auto"):
     if not text:
         print("there is no text provided for translate")

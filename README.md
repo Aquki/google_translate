@@ -17,4 +17,4 @@ import google_translate
 output = google_translate("おはよう！", des="en", src="ja")
 print(output)
 ```
-and this is it!
+and that's it!
